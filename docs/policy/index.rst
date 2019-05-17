@@ -1,16 +1,17 @@
-.. _policy:
+.. _azure_policies:
 
-Filters and Actions
-===================
+Policies
+========
 
-These topics provide detailed reference information about the filters and
-actions that you can specify in policies against individual resources. See the
-:ref:`Generic Filters reference <filters>` for filters that can be applied to
-all policies for all resources.
+Here are some more specific example policies for these resources:
 
 .. toctree::
   :maxdepth: 2
   :titlesonly:
   :glob:
 
+  delayedoperation
+  genericarmaction
+  genericarmfilter
+  filters
   resources/*
