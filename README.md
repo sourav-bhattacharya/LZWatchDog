@@ -24,7 +24,7 @@ execute against large existing fleets. This project was initially titled
 LZ Custodian, but was later renamed to LZ Watch Dog. So if you see Custodian
 mentioned somewhere, don't panic.
 
-"[Engineering the Next Generation of Cloud
+Source of Inspiration: "[Engineering the Next Generation of Cloud
 Governance](https://cloudrumblings.io/cloud-adoption-engineering-the-next-generation-of-cloud-governance-21fb1a2eff60)"
 by \@drewfirment
 
