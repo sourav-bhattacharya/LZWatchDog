@@ -7,12 +7,12 @@ cloud infrastructure, that\'s both secure and cost optimized. It
 consolidates many of the adhoc scripts organizations have into a
 lightweight and flexible tool, with unified metrics and reporting.
 
-Custodian can be used to manage AWS, Azure, and GCP environments by
+LZ Watch Dog can be used to manage AWS, Azure, and GCP environments by
 ensuring real time compliance to security policies (like encryption and
 access requirements), tag policies, and cost management via garbage
 collection of unused resources and off-hours resource management.
 
-Custodian policies are written in simple YAML configuration files that
+LZ Watch Dog policies are written in simple YAML configuration files that
 enable users to specify policies on a resource type (EC2, ASG, Redshift,
 CosmosDB, PubSub Topic) and are constructed from a vocabulary of filters
 and actions.
@@ -58,10 +58,10 @@ Usage
 -----
 
 First a role must be created with the appropriate permissions for
-custodian to act on the resources described in the policies yaml given
+LZ Watch Dog to act on the resources described in the policies yaml given
 as an example below. For convenience, an _example policy_ is provided for this
 quick start guide. Customized AWS IAM policies will be necessary for
-your own custodian policies
+your own LZ Watch Dog policies
 
 To implement the policy:
 
@@ -77,7 +77,7 @@ To implement the policy:
 Now with the pre-requisite completed; you are ready continue and run
 custodian.
 
-A custodian policy file needs to be created in YAML format, as an
+A LZ Watch Dog policy file needs to be created in YAML format, as an
 example
 
 ```yaml
@@ -174,8 +174,6 @@ $ docker run -it \
   cloudcustodian/c7n run -v -s /home/custodian/output /home/custodian/policy.yml
 ```
 
-Custodian supports a few other useful subcommands and options, including
+LZ Watch Dog supports a few other useful subcommands and options, including
 outputs to S3, Cloudwatch metrics, STS role assumption. Policies go
 together like Lego bricks with actions and filters.
-
-Consult the documentation for additional information, or reach out on gitter.
